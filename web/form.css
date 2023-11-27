@@ -1,0 +1,87 @@
+* {
+    font-family: Arial, sans-serif;
+}
+form {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 16px auto;
+    max-width: 600px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+form p {
+    margin-bottom: 12px;
+}
+
+form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form select,
+form textarea {
+    width: 94%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+input[readonly] {
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  background-color: transparent; 
+  cursor: text; 
+  outline: none; 
+}
+
+form fieldset {
+    display: flex;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+form legend {
+    font-weight: bold;
+}
+
+form input[type="radio"] {
+    margin-right: 5px;
+}
+
+form input[type="submit"] {
+    background-color: #1a73e8;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #1558d6;
+}
+
+.inp {
+    margin-top: 10px;
+    padding: 10px;
+}
+
+#excluir {
+    
+    background-color: 	#FF0000;
+}
+
+#excluir:hover {
+    background-color: #B22222;
+}
+

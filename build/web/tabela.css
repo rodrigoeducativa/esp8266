@@ -1,0 +1,147 @@
+* {
+    font-family: Arial, sans-serif;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+    background-color: AliceBlue;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid;
+    border-radius: 30px;
+
+}
+th {
+    background-color: #1a73e8;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+
+}
+td {
+    background-color: #fff; 
+    color: #333; 
+    padding: 10px; 
+    text-align: center;
+}
+/* Verde para valores entre 40 e 64 */
+.decibel-cell[data-valor="40" ],
+.decibel-cell[data-valor="41" ],
+.decibel-cell[data-valor="42" ],
+.decibel-cell[data-valor="43" ],
+.decibel-cell[data-valor="44" ],
+.decibel-cell[data-valor="45" ],
+.decibel-cell[data-valor="46" ],
+.decibel-cell[data-valor="47" ],
+.decibel-cell[data-valor="48" ],
+.decibel-cell[data-valor="49" ],
+.decibel-cell[data-valor="50" ],
+.decibel-cell[data-valor="51" ],
+.decibel-cell[data-valor="52" ],
+.decibel-cell[data-valor="53" ],
+.decibel-cell[data-valor="54" ],
+.decibel-cell[data-valor="55" ],
+.decibel-cell[data-valor="56" ],
+.decibel-cell[data-valor="57" ],
+.decibel-cell[data-valor="58" ],
+.decibel-cell[data-valor="59" ],
+.decibel-cell[data-valor="60" ],
+.decibel-cell[data-valor="61" ],
+.decibel-cell[data-valor="62" ],
+.decibel-cell[data-valor="63" ],
+.decibel-cell[data-valor="64" ] {
+    color: limegreen;
+    font-weight: bold;
+}
+
+
+/* Seletor de atributo para valores entre 65 e 104 (amarelo) */
+.decibel-cell[data-valor="65"],
+.decibel-cell[data-valor="66"],
+.decibel-cell[data-valor="67"],
+.decibel-cell[data-valor="68"],
+.decibel-cell[data-valor="69"],
+.decibel-cell[data-valor="70"],
+.decibel-cell[data-valor="71"],
+.decibel-cell[data-valor="72"],
+.decibel-cell[data-valor="73"],
+.decibel-cell[data-valor="74"],
+.decibel-cell[data-valor="75"],
+.decibel-cell[data-valor="76"],
+.decibel-cell[data-valor="77"],
+.decibel-cell[data-valor="78"],
+.decibel-cell[data-valor="79"],
+.decibel-cell[data-valor="80"],
+.decibel-cell[data-valor="81"],
+.decibel-cell[data-valor="82"],
+.decibel-cell[data-valor="83"],
+.decibel-cell[data-valor="84"],
+.decibel-cell[data-valor="85"],
+.decibel-cell[data-valor="86"],
+.decibel-cell[data-valor="87"],
+.decibel-cell[data-valor="88"],
+.decibel-cell[data-valor="89"],
+.decibel-cell[data-valor="90"],
+.decibel-cell[data-valor="91"],
+.decibel-cell[data-valor="92"],
+.decibel-cell[data-valor="93"],
+.decibel-cell[data-valor="94"],
+.decibel-cell[data-valor="95"],
+.decibel-cell[data-valor="96"],
+.decibel-cell[data-valor="97"],
+.decibel-cell[data-valor="98"],
+.decibel-cell[data-valor="99"],
+.decibel-cell[data-valor="100"],
+.decibel-cell[data-valor="101"],
+.decibel-cell[data-valor="102"],
+.decibel-cell[data-valor="103"],
+.decibel-cell[data-valor="104"] {
+    color: #fdbd18;
+    font-weight: bold;
+}
+
+/* Vermelho para valores entre 105 e 130 */
+.decibel-cell[data-valor="105"],
+.decibel-cell[data-valor="106"],
+.decibel-cell[data-valor="107"],
+.decibel-cell[data-valor="108"],
+.decibel-cell[data-valor="109"],
+.decibel-cell[data-valor="110"],
+.decibel-cell[data-valor="111"],
+.decibel-cell[data-valor="112"],
+.decibel-cell[data-valor="113"],
+.decibel-cell[data-valor="114"],
+.decibel-cell[data-valor="115"],
+.decibel-cell[data-valor="116"],
+.decibel-cell[data-valor="117"],
+.decibel-cell[data-valor="118"],
+.decibel-cell[data-valor="119"],
+.decibel-cell[data-valor="120"],
+.decibel-cell[data-valor="121"],
+.decibel-cell[data-valor="122"],
+.decibel-cell[data-valor="123"],
+.decibel-cell[data-valor="124"],
+.decibel-cell[data-valor="125"],
+.decibel-cell[data-valor="126"],
+.decibel-cell[data-valor="127"],
+.decibel-cell[data-valor="128"],
+.decibel-cell[data-valor="129"],
+.decibel-cell[data-valor="130"] {
+    color: red;
+    font-weight: bold;
+}
+td a {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: red;
+    align-items: center;
+    justify-content: center;
+}
+.icones {
+    text-align: center;
+    vertical-align: middle; 
+}
